@@ -10,8 +10,8 @@ resource "aws_instance" "dove-inst" {
   key_name               = aws_key_pair.dove-key.key_name
   vpc_security_group_ids = ["sg-0dae12958ff8970a7"]
   tags = {
-    Name    = "Dove-Instance"
-    Project = "Dove"
+    Name    = "Dove-Instance3"
+   
   }
 
   provisioner "file" {
